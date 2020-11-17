@@ -1,6 +1,8 @@
 # face-recognition
 
-1: Follow the guidelines in https://github.com/ageitgey/face_recognition project 
+This project contains a script for usage with ageitgey/face_recognition app.
+
+1. Follow the guidelines in https://github.com/ageitgey/face_recognition project 
    and install the app.
 
 2. Add all pictures of identified faces to ./img/known directory.
@@ -11,8 +13,10 @@
    This script renames all files in subdirectories by the directory name + number in series, e.g Jon Bovi1, Jon Bovi2 etc.
 
 4. Move all image files out from their subdirectories to directory ./img/known :
+   ```bash
    find . -mindepth 2 -type f -print -exec mv {} . \;
-   
+   ```
 5. Run the app!
+   ```bash
    face_recognition ./img/known ./img/unknown
-   
+   ```
