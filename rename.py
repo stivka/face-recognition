@@ -2,7 +2,7 @@ import os
 from os.path import join
 import pathlib
 
-path = "./img/unknown"
+path = "./img/known"
 
 for root, dirs, files in os.walk(path):
   folder_name = os.path.basename(root)
