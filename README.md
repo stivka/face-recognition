@@ -2,6 +2,7 @@
 
 This project contains a script for usage with ageitgey/face_recognition app.
 
+
 1. Follow the guidelines in https://github.com/ageitgey/face_recognition project 
    and install the app.
 
