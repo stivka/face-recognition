@@ -17,7 +17,9 @@ This project contains a script for usage with ageitgey/face_recognition app.
    ```bash
    find . -mindepth 2 -type f -print -exec mv {} . \;
    ```
-5. Run the app!
+5. Add the images of the people that you want to be recognised into the ./img/unknown directory.
+
+6. Run the app!
    ```bash
    face_recognition ./img/known ./img/unknown
    ```
